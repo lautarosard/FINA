@@ -4,76 +4,18 @@
   }
   
   body {
-    background-color: white;
+    background-image:url(img/Fondo.jpg);
     color: black;
-    margin: 0;
-    padding: 0;
-    height: 10rem;
-    display: flex;
+    
   }
-  /*------------------------Slider------------------------*/
-  .slider{
-    width: 800px;
-    height: 500px;
-    border-radius: 10px;
-    overflow: hidden;
-    position: relative;
-  }
-  .slides{
-    width: 300%;
-    height: 100%;
-    transition: transform 0.5s;
-    display: flex;
-  }
-  .slides input{
-    display: none;
-  }
-  .slide{
-    width: 33.33%;
-    height: 100%;
-    flex-shrink: 0;
-  }
-  .manual-nav{
-    position:absolute;
-    width: 100%;
-    bottom: 20px;
-    display: flex;
-    justify-content: center;
-  }
-  .manual-btn{
-    border: 2px solid #000;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-    margin: 0 10px;
-  }
-  .manual-btn:not(:last-child){
-    margin-right: 40px;
-  }
-  .manual-btn:hover{
-    background:#fff ;
-  }
-  #rad1:checked ~ .first{
-    margin-left: 0;
-  }
-  
-  #rad2:checked ~ .first{
-    margin-left: 30%;
-  }
-  
-  #rad3:checked ~ .first{
-    margin-left: 60%;
-  }  
-  /*-----------------------------------------------------*/
-  /*a {
+  a {
     color: black;
     text-decoration: none;
   }
   
   header {
     display: flex;
-     justify-content: space-between; 
+    justify-content: space-between; 
     align-items: end;
     background-color: white;
     border-bottom: 1px solid black;
@@ -82,6 +24,8 @@
     top: 0;
     left: 0;
     right: 0;
+    margin: 1rem 1rem;
+    border: 1px solid darkcyan;
   }
   
   nav {
@@ -105,8 +49,10 @@
   }
   
   main {
-    margin-top: 100px;
+    
     padding: 20px;
+    margin: 11rem .5rem;
+    border: 1px solid darkcyan;
   }
   
   section {
@@ -126,16 +72,18 @@
   
   footer {
     background-color: white;
-    border-top: 1px solid black;
+    
     padding: 20px;
     text-align: center;
     position: relative;
     bottom: 0;
     left: 0;
     right: 0;
+    margin: 11rem .5rem;
+    border: 1px solid darkcyan;
   }
 
-   Media queries 
+   /*Media queries*/ 
   @media screen and (max-width: 768px) {
     nav {
       flex-direction: column;
@@ -155,4 +103,4 @@
     }
     
     } 
-  */
+  
