@@ -1,0 +1,34 @@
+<div class="Slider">
+				<div class="slides">
+					<!--btn radio-->
+					<input type="radio" name="radio-btn" id="rad1">
+					<input type="radio" name="radio-btn" id="rad2">
+					<input type="radio" name="radio-btn" id="rad3">
+					<!--btn radio fin-->
+					<!--imagenes slides-->
+					<div class="slide first">
+						<img src="img/Slide-1.jpg" alt="" >
+					</div>
+					<div class="slide">
+						<img src="img/Slide-2.jpg" alt="" >
+					</div>
+					<div class="slide">
+						<img src="img/Slide-3.jpg" alt="" >
+					</div>
+					<!--imagenes slides fin-->
+					<!--auto nav-->
+					<div class="nav-auto">
+						<div class="auto-btn1"></div>
+						<div class="auto-btn2"></div>
+						<div class="auto-btn3"></div>
+					</div>
+					<!--auto nav fin-->
+				</div>
+					<!--manual nav-->
+					<div class="manual-nav">
+						<label for="rad1" class="manual-btn"></label>
+						<label for="rad2" class="manual-btn"></label>
+						<label for="rad3" class="manual-btn"></label>
+					</div>
+					<!--manual nav fin-->
+			</div>

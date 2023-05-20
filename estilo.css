@@ -4,33 +4,36 @@
   }
   
   body {
-    background-image:url(img/Fondo.jpg);
+    background-image:url(img/fon3.jpg);
     color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+
     
   }
   a {
-    color: black;
+    color: white;
     text-decoration: none;
   }
   
   header {
     display: flex;
-    justify-content: space-between; 
-    align-items: end;
-    background-color: white;
-    border-bottom: 1px solid black;
+    justify-content:space-between; 
     padding: 20px;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     margin: 1rem 1rem;
-    border: 1px solid darkcyan;
+    color: #fff;
   }
-  
+
   nav {
     display: flex;
     align-items: center;
+    
   }
   
   nav h1 {
@@ -43,17 +46,22 @@
     display: flex;
     list-style: none;
   }
+  nav ul a{
+    color: antiquewhite;
+  }
   
   nav li {
     margin-left: 20px;
   }
   
-  main {
-    
+  main { 
     padding: 20px;
-    margin: 11rem .5rem;
-    border: 1px solid darkcyan;
+    margin: 11rem .3rem;
   }
+  main section h2,p{
+    color: #fff;
+    font-weight: 530;
+    }
   
   section {
     margin-bottom: 40px;
@@ -71,18 +79,24 @@
   }
   
   footer {
-    background-color: white;
-    
     padding: 20px;
     text-align: center;
     position: relative;
     bottom: 0;
     left: 0;
     right: 0;
-    margin: 11rem .5rem;
-    border: 1px solid darkcyan;
+    margin: 1rem .5rem;
+    
+  }
+  footer ul li{
+    color: #fff
   }
 
+/*Servicios*/
+#servicios ul li{
+  color: #fff;
+}
+/*------*/
    /*Media queries*/ 
   @media screen and (max-width: 768px) {
     nav {

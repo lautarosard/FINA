@@ -1,12 +1,11 @@
 /*------------------------Slider------------------------*/
 
 .slider{
-    width: 100%;
+    width: 80%;
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
-    position: relative;
-    margin: 0 auto;
+
   }
   .slides{
     width: 300%;
